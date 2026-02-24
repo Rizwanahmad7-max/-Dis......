@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Your company — short tagline here" />
+  <title>Your Company — Solutions</title>
+
+  <!-- Basic styling (mobile-first) -->
+  <style>
+    :root{
+      --bg:#ffffff;
+      --muted:#6b7280;
+      --accent:#0ea5a4;
+      --accent-700:#0b7b79;
+      --card:#f8fafc;
+      --radius:14px;
+      --max-w:1100px;
+      --gap:1.25rem;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:linear-gradient(180deg, #fbfdfe 0%, #f7f9fb 100%);
+      color:#0f17…
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Your company — short tagline here" />
+  <title>Your Company — Solutions</title>
+
+  <!-- Basic styling (mobile-first) -->
+  <style>
+    :root{
+      --bg:#ffffff;
+      --muted:#6b7280;
+      --accent:#0ea5a4;
+      --accent-700:#0b7b79;
+      --card:#f8fafc;
+      --radius:14px;
+      --max-w:1100px;
+      --gap:1.25rem;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      background:linear-gradient(180deg, #63b2da 0%, #4775a3 100%);
+      color:#0f1724;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+    }
+    .container{max-width:var(--max-w); margin:0 auto; padding:1.25rem;}
+    header{display:flex; align-items:center; justify-content:space-between; gap:var(--gap); padding:1rem 0;}
+    .brand{display:flex; align-items:center; gap:.75rem; text-decoration:none; color:inherit;}
+    .logo{width:44px; height:44px; border-radius:10px; background:var(--accent); display:inline-flex; align-items:center; justify-content:center; color:white; font-weight:700;}
+    nav{display:flex; gap:1rem; align-items:center;}
+    nav a{color:var(--muted); text-decoration:none; font-weight:600; font-size:.95rem}
+    .cta{background:var(--accent); color:white; border:none; padding:.6rem .9rem; border-radius:10px; font-weight:700; cursor:pointer}
+    /* hero */
+    .hero{display:grid; grid-template-columns:1fr; gap:1.25rem; align-items:center; padding:2rem 0;}
+    .hero-grid{display:grid; gap:1rem;}
+    h1{font-size:1.6rem; margin:.25rem 0 0; line-height:1.05}
+    p.lead{color:var(--muted); margin:.6rem 0 1rem;}
+    .hero-actions{display:flex; gap:.75rem; flex-wrap:wrap;}
+    .card{background:var(--card); padding:1rem; border-radius:12px; box-shadow:0 6px 18px rgba(12,18,24,0.05)}
+    /* features */
+    .features{display:grid; grid-template-columns:repeat(1,1fr); gap:1rem;}
+    .feature{display:flex; gap:.75rem; align-items:flex-start}
+    .feature .icon{min-width:44px; height:44px; border-radius:8px; background:linear-gradient(135deg,#dffaf8,#bff0ee); display:flex; align-items:center; justify-content:center; font-weight:700}
+    /* contact */
+    form{display:grid; gap:.6rem}
+    label{font-size:.85rem; color:var(--muted)}
+    input,textarea{padding:.7rem; border-radius:8px; border:1px solid #e6eef0; font-size:.95rem}
+    textarea{min-height:110px; resize:vertical}
+    footer{padding:2rem 0; color:var(--muted); font-size:.9rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; flex-wrap:wrap}
+    /* responsive */
+    @media(min-width:900px){
+      .hero{grid-template-columns:1fr 420px;}
+      h1{font-size:2.2rem}
+      .features{grid-template-columns:repeat(3,1fr)}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="#">
+        <div class="logo">OS</div>
+        <div>
+          <div style="font-weight:800">SKY BRIDGE SOLUTIONS</div>
+          <div style="font-size:.8rem;color:var(--muted);margin-top:.1rem">  Professional Dispatch Services </div>
+        </div>
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+        <button class="cta" onclick="window.location='#contact'">Get a Quote</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="hero-grid">
+          <div class="card" style="padding:1.25rem;">
+            <div style="color:var(--muted); font-weight:700; font-size:.85rem"> <h1>Services</h1></div>
+            <h3 id="hero-heading">1)We will handle all of your paprer work<hr style="border: 1px solid #ccc;">2)
+            Finding best loads for you<hr style="border: 1px solid #ccc;">
+            3)Negotiating the best rates for you.<hr style="border: 1px solid #ccc;">
+            4)Making invoices for you<hr style="border: 1px solid #ccc;">5)Before delivering previous we will find next load for you.</h3>
+            <p class="lead">Since we are very dedicated dispatchers and are prepared to collaborate, our company will provide you high-paying load opportunities at competitive rates</p>
+
+            <div class="hero-actions">
+              <a class="cta" href="#contact">Start work with us</a>
+              <a href="#work" style="padding:.6rem .9rem; border-radius:10px; border:1px solid #e6eef0; text-decoration:none; color:var(--muted); font-weight:700">See examples</a>
+            </div>
+          </div>
+
+          <div style="display:flex; gap:1rem; margin-top:.6rem;">
+            <div class="card" style="flex:1">
+              <strong>Strategy</strong>
+              <p style="color:var(--muted); margin:0.5rem 0 0">    We focus on securing high-paying loads, minimizing deadhead miles, 
+    and building strong broker relationships. Our goal is to keep your 
+    truck moving consistently while maximizing your weekly revenue.</p>
+            </div>
+            
+          </div>
+        </div>
+
+        <aside>
+          <div class="card">
+            <strong style="display:block">Quick specs</strong>
+            <ul style="padding-left:1rem; margin:.6rem 0 0; color:var(--muted)">
+               <li>High-paying load negotiation</li>
+  <li>Dedicated personal dispatcher</li>
+  <li>24/7 broker communication</li>
+  <li>Smart route & lane planning</li>
+  <li>Minimized deadhead miles</li>
+  <li>Consistent weekly freight</li>
+  <li>Rate confirmation & paperwork handling</li>
+  <li>Detention & TONU assistance</li>
+  <li>Factoring support</li>
+  <li>Credit checks on brokers</li>
+            </ul>
+          </div>
+        </aside>
+      </section>
+
+      <section id="services" style="margin-top:2rem">
+  <h2 style="margin:0 0 1rem">Our Services</h2>
+  <div class="features" style="display:grid; grid-template-columns:1fr; gap:1rem;">
+    
+    <!-- Rate Negotiation -->
+    <div class="feature card" style="display:flex; gap:1rem; align-items:flex-start;">
+      <div class="icon" style="min-width:50px; height:50px; border-radius:8px; background:#dffaf8; display:flex; align-items:center; justify-content:center; font-weight:700;">NEG</div>
+      <div>
+        <strong>Rate Negotiation</strong>
+        <p style="color:var(--muted); margin-top:.3rem;">
+          We negotiate top market rates with trusted brokers to maximize your weekly revenue.
+        </p>
+      </div>
+    </div>
+
+    <!-- Load Planning -->
+    <div class="feature card" style="display:flex; gap:1rem; align-items:flex-start;">
+      <div class="icon" style="min-width:50px; height:50px; border-radius:8px; background:#bff0ee; display:flex; align-items:center; justify-content:center; font-weight:700;">PLAN</div>
+      <div>
+        <strong>Load Planning</strong>
+        <p style="color:var(--muted); margin-top:.3rem;">
+          Strategic lane planning and minimal deadhead miles to keep your truck profitable.
+        </p>
+      </div>
+    </div>
+
+    <!-- 24/7 Dispatch Support -->
+    <div class="feature card" style="display:flex; gap:1rem; align-items:flex-start;">
+      <div class="icon" style="min-width:50px; height:50px; border-radius:8px; background:#d0f0f6; display:flex; align-items:center; justify-content:center; font-weight:700;">SUP</div>
+      <div>
+        <strong>24/7 Dispatch Support</strong>
+        <p style="color:var(--muted); margin-top:.3rem;">
+          Full back-office assistance, broker communication, and paperwork handling.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+      <section id="work" style="margin-top:1.5rem">
+        <h2 style="margin:0 0 .6rem">Work — examples</h2>
+        <div style="display:grid; grid-template-columns:repeat(1,1fr); gap:1rem;">
+          <div class="card">
+            <strong>Carrier 1</strong>
+            <div style="color:var(--muted); margin-top:.5rem"> MC-1732968
+            <hr style="border: 1px solid #ccc;">
+            
+ PFOTRUCKING LLC Secretary of State
+<hr style="border: 1px solid #ccc;"> jean@pfotrucking.com
+</div>
+          </div>
+          <div class="card">
+            <strong> Carrier 2</strong>
+            <div style="color:var(--muted); margin-top:.5rem"> 
+MC-1539156<hr style="border: 1px solid #ccc;">RG TRANSPORT INC Secretary of State
+<hr style="border: 1px solid #ccc;"> rgstransport05@gmail.com</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" style="margin-top:1.5rem">
+        <h2 style="margin:0 0 .6rem">Contact</h2>
+        <div class="card" style="display:grid; gap:1rem;">
+          <form id="contactForm" onsubmit="handleSubmit(event)" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" required placeholder="Your full name" />
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@company.com" />
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project, budget range (optional), and goals"></textarea>
+
+            <div style="display:flex; gap:.6rem; align-items:center; justify-content:flex-end; margin-top:.25rem">
+              <button type="submit" class="cta">Send</button>
+              <button type="button" onclick="resetForm()" style="padding:.6rem .9rem; border-radius:10px; border:1px solid #e6eef0; background:white">Reset</button>
+            </div>
+
+            <div id="formStatus" aria-live="polite" style="color:var(--muted); font-size:.9rem"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> Your Company — All rights reserved</div>
+      <div style="display:flex; gap:1rem;">
+        <a href="#" style="color:var(--muted); text-decoration:none">Privacy</a>
+        <a href="#" style="color:var(--muted); text-decoration:none">Terms</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Small helpers
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    function resetForm(){
+      document.getElementById('contactForm').reset();
+      document.getElementById('formStatus').textContent = '';
+    }
+
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      if(!name || !email){
+        document.getElementById('formStatus').textContent = 'Please include your name and email.';
+        return;
+      }
+
+      // Simple mailto fallback (replace with API / backend endpoint for production)
+      const subject = encodeURIComponent('Website inquiry from ' + name);
+      const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + message);
+      const mailto = mailto:hello@yourcompany.com?subject=${subject}&body=${body};
+
+      // Try opening mail client
+      window.location.href = mailto;
+      document.getElementById('formStatus').textContent = 'Opening your email client...';
+    }
+  </script>
+</body>
+</html>
